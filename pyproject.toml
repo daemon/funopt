@@ -1,0 +1,21 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "funopt"
+version = "0.0.1"
+authors = [
+    { name="Raphael Tang", email="tang.raphael@gmail.com" }
+]
+requires-python = ">=3.12"
+
+[tool.poetry]
+name = "funopt"
+version = "0.0.1"
+authors = ["Raphael Tang <tang.raphael@gmail.com>"]
+readme = "README.md"
+package-mode = true
+
+[tool.poetry.dependencies]
+line-profiler = "^4.0.0"
